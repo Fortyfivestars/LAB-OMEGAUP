@@ -1,0 +1,4 @@
+N = int(input())
+datos = list(map(int, input().split()))
+mayor = max(datos)
+print(mayor)
