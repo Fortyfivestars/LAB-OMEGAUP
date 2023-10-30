@@ -1,0 +1,9 @@
+x,y=input().split()
+x=int(x)
+y=int(y)
+if x>y:
+  print(24+y-x)
+elif y>x:
+  print(y-x)
+else:
+  print(24)
