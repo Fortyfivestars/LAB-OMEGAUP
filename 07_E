@@ -1,0 +1,4 @@
+n = int(input())
+edades = list(map(int, input().split()))
+mayor_edad = max(edades)
+print(mayor_edad)
