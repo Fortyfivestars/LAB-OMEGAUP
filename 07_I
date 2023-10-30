@@ -1,0 +1,11 @@
+suma = 0
+
+numeros = input().split()
+
+for numero in numeros:
+    numero = int(numero)
+    if numero == 0:
+        break
+    suma += numero
+
+print(suma)
