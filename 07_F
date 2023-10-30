@@ -1,0 +1,7 @@
+cantidad_alumnos = int(input())
+suma_calificaciones = 0
+calificaciones = input().split()
+for calificacion in calificaciones:
+    suma_calificaciones += int(calificacion)
+promedio = suma_calificaciones / cantidad_alumnos
+print(f"{promedio:.2f}")
