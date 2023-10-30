@@ -1,0 +1,11 @@
+N = int(input())
+numeros = list(map(int, input().split()))
+creciente = True
+for i in range(1, N):
+    if numeros[i] <= numeros[i - 1]:
+        creciente = False
+        break
+if creciente:
+    print("SI")
+else:
+    print("NO")
